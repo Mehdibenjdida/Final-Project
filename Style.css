@@ -1,0 +1,442 @@
+body {
+    font-family:  'Poppins', sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    height: 120px;
+    padding: 20px;
+    
+    }
+    .navbare{
+
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        gap: 20px;
+    }
+    .navbare ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        list-style-type: none;
+    
+    }
+    .navbare ul li a{
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+        font-weight: 600;
+        
+    }
+    .navbare ul li a:hover{
+        color:rgb(251, 167, 181);
+        transition: 0.5S;
+    }
+    #ab{
+        color: rgb(251, 167, 181);
+    }
+    .logo a img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+       
+    }
+  
+    .daslagas{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 30%;
+        background-image: url(w-qjCHPZbeXCQ-unsplash.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 650px;
+        
+    }
+    .sectionone{
+        display: flex;
+        width:100%;
+        padding: 30px;
+    }
+    .carousel{
+        width: 100%;
+    }
+    
+    .sectionone img{
+        height: 650px !important;
+    }
+    .daslagas h2{
+        font-family: 'Dancing Script', cursive;
+        color: #fff;
+      font-size: 50px;
+      margin: 0;
+        
+       
+    }
+    .daslagas h3{
+    font-size:20px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+           
+    }
+    #carouselExampleControls{
+    
+  height: 650px;
+   
+    }
+    .daslagas  button a{
+        text-decoration: none;
+        color:rgb(251, 167, 181);
+        transition: all .3s;
+    }
+    .daslagas button{
+    font-size: 20px;
+   font-family: roboto ;
+    background-color: #fff;
+    padding: 12px 25px;
+     border-radius: 3px;
+    font-weight: 600;
+    border: 0;
+    width: fit-content;
+   
+    }
+   
+
+        
+     
+     .aboutus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+
+     }
+    
+     .aboutus div h2{
+        position: relative;
+    font-size: 15px;
+  
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 40px;
+        color:rgb(251, 167, 181) ;
+     }
+     .sectiontwo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+     }
+     .content-section{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20;
+     }
+     .mmm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 70px;
+        
+     }
+    
+     
+     .shop-items{
+        display: flex !important;
+        justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+     
+
+     }
+     
+     .shop-items img{
+        width: 200px;
+        height: 150px;
+        cursor:pointer;
+
+     }
+    
+     .shop-item{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid beige;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px lightblue;
+  
+     }
+    .shop-item-details{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        gap: 20px;
+    }
+    .shop-item-details button{
+        background-color: rgb(243, 158, 188);
+    }
+    .shop-item-details button:hover{
+        background-color: rgb(247, 190, 210);
+    }
+    .cart-row{
+        display: flex !important;
+        justify-content: space-between;
+        padding: 10px;
+        border: 2px beige solid;
+        
+    }
+    .cart-total{
+        display: flex;
+        justify-content: flex-end;
+        font-size: 30px;
+    }
+    .btn-purchase{
+        width: 30%;
+    }
+    .Order{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aaa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        
+        
+    }
+    .cart{
+        font-family:'Poppins', sans-serif ;
+        font-size: 40px;
+    }
+  
+    .sectionfinal{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    background-image: url(sky_sunset_gradient_170507_1600x900.jpg);     
+      background-repeat: no-repeat;
+        
+        background-size:cover;
+       
+      
+    }
+    .cart-quantity-input{
+        width: 50px;
+    }
+  
+    .filtre{
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px;
+align-items: center;
+
+    }
+  
+   
+ 
+   #ordernow{
+    font-size: 100%;
+    font-family: 'Brush Script MT', cursive;
+    color:white;
+   }
+   #bodyshop{
+    background-image: url(backfinal.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+   
+  .section-header{
+    font-family:  Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+  }
+  #filtrename{
+    color: black;
+    font-weight: 300;
+  }
+  .fourniture{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color:antiquewhite;
+  }
+  .fourniture h1{
+    color: gold;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif ;
+    font-size: 50px;
+  }
+  .fourniture h2{
+    color: #3c4d70;
+    font-family:  Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+  }
+  .fourniture p{
+    font-family:  Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+  }
+  .fourniture img{
+    width: 400px;
+    height: 400px;
+    transition: transform .2s
+  }
+  .fourniture img:hover{
+    transform: scale(1.1);
+  }
+  .fourniture div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer{
+    background-color: rgb(247, 190, 210);
+    height: 230px;
+    padding:40px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer img{
+    width: 150px;
+        height: 150px;
+        border-radius: 50%;
+  }
+  .socialmedia{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .copy{
+    font-size: 14px;
+    line-height: 25px;
+    color: #2a2a2a;
+
+  }
+  .phone{
+    width: 230px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+  }
+  .mail{
+    width: 230px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+  }
+  .contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family:  Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+  }
+  .maincontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 570px) {
+    header{
+        
+        flex-direction: column;
+        
+    }
+    .sectionone{
+        flex-direction: column;
+        
+    }
+    .aboutus{
+        flex-direction: column;
+        
+        
+    }
+    
+   
+    .footer{
+        flex-direction: column;
+       
+    }
+    .klem{
+      
+      flex-direction: column;
+      
+   }
+
+   .Minirugs{
+    flex-direction: column;
+   }
+   .Wallhangings{
+    flex-direction: column;
+   }
+   .Mirrors{
+    flex-direction: column;
+   }
+   .Pillows{
+    flex-direction: column;
+   }
+   .sectionfinal{
+    flex-direction: column;
+   }
+   .aaaaa{
+    flex-direction: column;
+   }
+   .contactus{
+    flex-direction: column;
+   }
+ }
+
+ .klem{
+    display: flex;
+    flex-direction: column;
+ }
+ .video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 

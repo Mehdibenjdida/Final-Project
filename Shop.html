@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Collection</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+    <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    
+</head>
+<body id="bodyshop">
+    
+    <div class="mmm">
+        <span id="ordernow"> Our collection</span>
+      </div>
+      <div class="filtre">
+      <i class="fa-solid fa-filter"></i>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="filtrename" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Filtre
+        </a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item"id="boutonfiltre" onclick="showall()" data-filter="all" >All </a>
+          <a class="dropdown-item"id="boutonfiltre" onclick="showminirugs()" data-filter="all" >Mini Rugs</a>
+          <a class="dropdown-item"id="boutonfiltre" onclick="showwallhangings()" data-filter="MiniRugs" >Wall hangings</a>
+          <a class="dropdown-item"id="boutonfiltre"  onclick="showmirrors()" data-filter="Mirrors" >Mirrors</a>
+          <a class="dropdown-item"id="boutonfiltre" onclick="showpillows()"  data-filter="Pillows" >Pillows</a>
+        </div>
+      </li>
+    </div>
+    <section class="container content-section" id="minirugs">
+        
+      <div class="aaa">
+        <h2 class="section-header" >Mini Rugs</h2>
+      </div>
+        <div class="shop-items Minirugs" >
+            <div class="shop-item">
+                <span class="shop-item-title">Jarr Rug</span>
+                <img class="shop-item-image" src="image1webp.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$18.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Iron man Rug</span>
+                <img class="shop-item-image" src="image 2.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$23.99</span>
+                    <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Hommer Simpson Rug</span>
+                <img class="shop-item-image" src="image 3.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$27.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Sunlight Rug</span>
+                <img class="shop-item-image" src="tapisssjpg.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$49.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section" id="wallhangings">
+      <div class="aaa">
+        <h2 class="section-header" >Wall hangings</h2>
+      </div>
+        <div class="shop-items Wallhangings" >
+            <div class="shop-item">
+                <span class="shop-item-title">Wave wall hanging</span>
+                <img class="shop-item-image" src="image4.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$39.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Circle wall hanging</span>
+                <img class="shop-item-image" src="wall1.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$29.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+              <span class="shop-item-title">South Pole wall hanging</span>
+              <img class="shop-item-image" src="wall2.jpeg">
+              <div class="shop-item-details">
+                  <span class="shop-item-price">$44.99</span>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+          </div>
+          <div class="shop-item">
+            <span class="shop-item-title"> Square Design wall hanging </span>
+            <img class="shop-item-image" src="wall6.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$39.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="container content-section" id="mirrors">
+      <div class="aaa">
+      <h2 class="section-header" >Mirrors</h2>
+    </div>
+      <div class="shop-items Mirrors" >
+          <div class="shop-item">
+              <span class="shop-item-title">Bohemian Mirror</span>
+              <img class="shop-item-image" src="miror1.webp">
+              <div class="shop-item-details">
+                  <span class="shop-item-price">$49.99</span>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+          </div>
+          <div class="shop-item">
+              <span class="shop-item-title">Wavy Pink Mirror</span>
+              <img class="shop-item-image" src="miror2.webp">
+              <div class="shop-item-details">
+                  <span class="shop-item-price">$29.99</span>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+          </div>
+          <div class="shop-item">
+            <span class="shop-item-title">Large Mirror</span>
+            <img class="shop-item-image" src="miror3.webp">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$99.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Scandinavian Mirror</span>
+          <img class="shop-item-image" src="image 6jpeg.jpeg">
+          <div class="shop-item-details">
+              <span class="shop-item-price">$69.99</span>
+              <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+      </div>
+      </div>
+  </section>
+  <section class="container content-section"  id="pillows">
+    <div class="aaa">
+    <h2 class="section-header" >Pillows</h2>
+  </div>
+    <div class="shop-items Pillows">
+        <div class="shop-item">
+            <span class="shop-item-title">Rainbow Dripping Pillow</span>
+            <img class="shop-item-image" src="pillow1.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$29.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Guru pillow</span>
+            <img class="shop-item-image" src="pillow2.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$29.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Nature Pillow</span>
+          <img class="shop-item-image" src="pillow3.webp">
+          <div class="shop-item-details">
+              <span class="shop-item-price">$29.99</span>
+              <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Double pillows</span>
+        <img class="shop-item-image" src="pillow4.webp">
+        <div class="shop-item-details">
+            <span class="shop-item-price">$59.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+    </div>
+    </div>
+  </section>
+  </section>
+    <section class="container content-section" id="CART">
+      <div class="mmm">
+       <span class="cart"> CART</span>
+      </div>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="image 2.webp" width="100" height="100">
+                    <span class="cart-item-title">Iron man Rug</span>
+                </div>
+                <span class="cart-price cart-column">$19.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="image 3.webp" width="100" height="100">
+                    <span class="cart-item-title">Hommer Simpson Rug</span>
+                </div>
+                <span class="cart-price cart-column">$9.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="2">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total&nbsp:&nbsp</strong>
+            <span class="cart-total-price"> $39.97&nbsp &nbsp</span>
+        </div>
+        <div class="Order">
+        <button class="btn btn-primary btn-purchase" type="button"> Order now</button>
+      </div>
+      </section>
+      <section class="sectionfinal" >
+        <div class="aaaaa">
+          <div class="maincontact">
+          <h2>CONTACT US</h2>
+          <span></span>
+        </div>
+        <div class="contactus">
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <h4>Phone number</h4>
+            <span>+216 53889138</span>
+          </div>
+      <div class="mail">
+        <i class="fa-solid fa-envelope"></i>
+        <h4>Email</h4>
+        <span>Benjedidamehdi@gmail.com</span>
+      </div>
+        </div>
+        </div>
+        <form class="formm">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+           
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 street">
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>Sousse</option>
+                <option>Tunis</option>
+                <option>Sfax</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Confirm my order
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary"  >Order</button>
+        </form>
+        
+      </section>
+      <script src="reservation.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
